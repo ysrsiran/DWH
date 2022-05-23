@@ -5,6 +5,7 @@ This project is from Udacity Data Engneering nanodegree program
 The goal of the project is to retrive data from Sparkify, a music stramming startup company to load their data from their s3 bucket and build an ETL pipeline for a Redshift-hosted database.
 
 #Code and Data Structure
+
 ##Data Structure 
 The staging_events and staging_songs tables are used to store raw data
 songplays, users, songs, artists and time tables are part of the star schema. The songplay_table is the fact table and contains the IDs for the relationship to the dimensional tables, rest of them are 
